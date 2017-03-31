@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" class="csstransforms csstransforms3d csstransitions">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Metepa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <script type="text/javascript" src="./video/swfobject.js"></script>
+    <script type="text/javascript">
+        var scetch_guid          = "6421cf13-1bbb-d81d-a4a9-9113bf6f32f3";
+        // For version detection, set to min. required Flash Player version, or 0 (or 0.0.0), for no version detection.
+        var swfVersionStr        = "11.1.0";
+        // To use express install, set to playerProductInstall.swf, otherwise the empty string.
+        var xiSwfUrlStr          = "playerProductInstall.swf";
+        var flashvars            = {};
+        flashvars.playlist       = "http://dm0km6weeq24.cloudfront.net/820ef576-d217-5032-0416-e4525129e2d3/820ef576-d217-5032-0416-e4525129e2d3.bin";
+        flashvars.bgColor        = "#FFFFFF";
+        var params               = {};
+        params.quality           = "high";
+        params.bgcolor           = "#FFFFFF";
+        params.allowscriptaccess = "sameDomain";
+        params.allowfullscreen   = "true";
+        params.wmode             = "opaque";
+        var attributes           = {};
+        attributes.id            = "AMplayer";
+        attributes.name          = "AMplayer";
+        attributes.align         = "middle";
+        swfobject.embedSWF(
+            "AMmultiscreens.NEW.swf", "flashContent",
+            "600", "400",
+            swfVersionStr, xiSwfUrlStr,
+            flashvars, params, attributes);
+        // JavaScript enabled so display the flashContent div in case it is not replaced with a swf object.
+        swfobject.createCSS("#flashContent", "display:block;text-align:left;");
+    </script>
+    <style type="text/css" media="screen">#flashContent {
+        visibility: hidden
+    }
+
+    #flashContent {
+        display: block;
+        text-align: left;
+    }</style>
+
+
+    <script type="text/javascript" charset="UTF-8" src="./video/common.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="./video/util.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="./video/stats.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="span12 companycallout" style="text-align: center;">
+
+
+            <br>
+
+            <object type="application/x-shockwave-flash" id="AMplayer" name="AMplayer" align="middle"
+                    data="./video/AMmultiscreens.NEW.swf.download" width="600" height="400">
+                <param name="quality" value="high">
+                <param name="bgcolor" value="#FFFFFF">
+                <param name="allowscriptaccess" value="sameDomain">
+                <param name="allowfullscreen" value="true">
+                <param name="wmode" value="opaque">
+                <param name="flashvars"
+                       value="playlist=http://dm0km6weeq24.cloudfront.net/820ef576-d217-5032-0416-e4525129e2d3/820ef576-d217-5032-0416-e4525129e2d3.bin&amp;bgColor=#FFFFFF">
+            </object>
+
+            <noscript>
+                &lt;object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="600" height="400"
+                id="angularPlayer"&gt;
+                &lt;param name="movie" value="/player/AMplayer.v10.swf" /&gt;
+                &lt;param name="quality" value="high" /&gt;
+                &lt;param name="bgcolor" value="#000000" /&gt;
+                &lt;param name="allowScriptAccess" value="sameDomain" /&gt;
+                &lt;param name="allowFullScreen" value="true" /&gt;
+                &lt;param name="wmode" value="opaque" /&gt;
+                &lt;!--[if !IE]&gt;--&gt;
+                &lt;object type="application/x-shockwave-flash" data="/player/AMplayer.v10.swf" width="600" height="400"&gt;
+                &lt;param name="quality" value="high" /&gt;
+                &lt;param name="bgcolor" value="#000000" /&gt;
+                &lt;param name="allowScriptAccess" value="sameDomain" /&gt;
+                &lt;param name="allowFullScreen" value="true" /&gt;
+                &lt;param name="wmode" value="opaque" /&gt;
+                &lt;!--&lt;![endif]--&gt;
+                &lt;!--[if gte IE 6]&gt;--&gt;
+                &lt;p&gt;
+                Either scripts and active content are not permitted to run or Adobe Flash Player version
+                11.1.0 or greater is not installed.
+                &lt;/p&gt;
+                &lt;!--&lt;![endif]--&gt;
+                &lt;a href="http://www.adobe.com/go/getflashplayer"&gt;
+                &lt;img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe
+                Flash Player" /&gt;
+                &lt;/a&gt;
+                &lt;!--[if !IE]&gt;--&gt;
+                &lt;/object&gt;
+                &lt;!--&lt;![endif]--&gt;
+                &lt;/object&gt;
+            </noscript>
+            <!-- <div class="jcarousel-wrapper" id="car_car" >
+                        <div class="jcarousel">
+                            <ul>
+                            </ul>
+                        </div>
+                        <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                        <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+                    </div> -->
+        </div>
+    </div>
+</div>
+
+<!-- End Callout -->
+
+
+<!-- Le javascript
+  ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+
+<script src="./video/jquery.js"></script>
+
+<script src="./video/jquery.jcarousel.js" type="text/javascript"></script>
+<script src="./video/AMplayer.js" type="text/javascript"></script>
+<script src="./video/lightbox.js"></script>
+
+<script src="./video/jquery.mousewheel-3.0.4.pack.js"></script>
+<script src="./video/jquery.gmap.js"></script>
+<script type="text/javascript" src="./video/js"></script>
+<script src="./video/jquery.form.js"></script>
+<script src="./video/custom.js"></script>
+<script src="./video/jquery.isotope.min.js"></script>
+<script src="./video/bootstrap-scrollspy.js"></script>
+<script src="./video/anchor.js" type="text/javascript"></script>
+<script src="./video/bootstrap.js"></script>
+
+
+<!-- Localized -->
+<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div>
+<div id="lightbox" class="lightbox" style="display: none;">
+    <div class="lb-outerContainer">
+        <div class="lb-container"><img class="lb-image" src="./boxing.html">
+            <div class="lb-nav"><a class="lb-prev" href="./boxing.html"></a><a class="lb-next" href="./boxing.html"></a>
+            </div>
+            <div class="lb-loader"><a class="lb-cancel"></a></div>
+            <div class="lb-closeContainer"><a class="lb-close"></a></div>
+        </div>
+    </div>
+    <div class="lb-dataContainer">
+        <div class="lb-data">
+            <div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div>
+            <div class="am-buttonContainer"><a class="am-button"></a></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
