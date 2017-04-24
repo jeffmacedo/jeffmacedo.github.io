@@ -11,7 +11,9 @@ require([
     // views, layouts
     var videoTextView = new VideoText();
     var CharsView= new Chars();
-
+    var contactsView = new Contacts();
+    var width=640;
+    var height=356;
     var MyRouter= Backbone.Router.extend({
 
         routes     : {
@@ -27,8 +29,6 @@ require([
             Backbone.history.start()
         },
         home       : function () {
-            var width=640;
-            var height=356;
 
             videoTextView.model.set(
                 {
@@ -42,9 +42,6 @@ require([
         },
 
         sport    : function () {
-            var width=640;
-            var height=356;
-
             videoTextView.model.set(
                 {
                     "img": "img/box.jpg",
@@ -56,9 +53,6 @@ require([
             )
         },
         learning : function () {
-            var width=640;
-            var height=356;
-
             videoTextView.model.set(
                 {
                     "img": "img/yoga.jpg",
@@ -70,9 +64,6 @@ require([
             )
         },
         multi    : function () {
-            var width=640;
-            var height=356;
-
             videoTextView.model.set(
                 {
                     "img": "img/panda.jpg",
@@ -84,12 +75,12 @@ require([
             )
         },
         chars    : function () {
-
-            videoTextView.model.destroy();
             $("#content").empty();
             CharsView.view.render();
         },
         contacts : function () {
+            $("#content").empty();
+            contactsView.view.render();
 
         }
 
